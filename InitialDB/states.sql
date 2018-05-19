@@ -1,0 +1,56 @@
+CREATE TABLE states (
+code text PRIMARY KEY,
+ name text NOT NULL
+);
+
+INSERT INTO states (name, code) VALUES ('Alaska', 'AK');
+INSERT INTO states (name, code) VALUES ('Alabama', 'AL');
+INSERT INTO states (name, code) VALUES ('Arkansas', 'AR');
+INSERT INTO states (name, code) VALUES ('Arizona', 'AZ');
+INSERT INTO states (name, code) VALUES ('California', 'CA');
+INSERT INTO states (name, code) VALUES ('Colorado', 'CO');
+INSERT INTO states (name, code) VALUES ('Connecticut', 'CT');
+INSERT INTO states (name, code) VALUES ('District of Columbia', 'DC');
+INSERT INTO states (name, code) VALUES ('Delaware', 'DE');
+INSERT INTO states (name, code) VALUES ('Florida', 'FL');
+INSERT INTO states (name, code) VALUES ('Georgia', 'GA');
+INSERT INTO states (name, code) VALUES ('Hawaii', 'HI');
+INSERT INTO states (name, code) VALUES ('Iowa', 'IA');
+INSERT INTO states (name, code) VALUES ('Idaho', 'ID');
+INSERT INTO states (name, code) VALUES ('Illinois', 'IL');
+INSERT INTO states (name, code) VALUES ('Indiana', 'IN');
+INSERT INTO states (name, code) VALUES ('Kansas', 'KS');
+INSERT INTO states (name, code) VALUES ('Kentucky', 'KY');
+INSERT INTO states (name, code) VALUES ('Louisiana', 'LA');
+INSERT INTO states (name, code) VALUES ('Massachusetts', 'MA');
+INSERT INTO states (name, code) VALUES ('Maryland', 'MD');
+INSERT INTO states (name, code) VALUES ('Maine', 'ME');
+INSERT INTO states (name, code) VALUES ('Michigan', 'MI');
+INSERT INTO states (name, code) VALUES ('Minnesota', 'MN');
+INSERT INTO states (name, code) VALUES ('Missouri', 'MO');
+INSERT INTO states (name, code) VALUES ('Mississippi', 'MS');
+INSERT INTO states (name, code) VALUES ('Montana', 'MT');
+INSERT INTO states (name, code) VALUES ('North Carolina', 'NC');
+INSERT INTO states (name, code) VALUES ('North Dakota', 'ND');
+INSERT INTO states (name, code) VALUES ('Nebraska', 'NE');
+INSERT INTO states (name, code) VALUES ('New Hampshire', 'NH');
+INSERT INTO states (name, code) VALUES ('New Jersey', 'NJ');
+INSERT INTO states (name, code) VALUES ('New Mexico', 'NM');
+INSERT INTO states (name, code) VALUES ('Nevada', 'NV');
+INSERT INTO states (name, code) VALUES ('New York', 'NY');
+INSERT INTO states (name, code) VALUES ('Ohio', 'OH');
+INSERT INTO states (name, code) VALUES ('Oklahoma', 'OK');
+INSERT INTO states (name, code) VALUES ('Oregon', 'OR');
+INSERT INTO states (name, code) VALUES ('Pennsylvania', 'PA');
+INSERT INTO states (name, code) VALUES ('Rhode Island', 'RI');
+INSERT INTO states (name, code) VALUES ('South Carolina', 'SC');
+INSERT INTO states (name, code) VALUES ('South Dakota', 'SD');
+INSERT INTO states (name, code) VALUES ('Tennessee', 'TN');
+INSERT INTO states (name, code) VALUES ('Texas', 'TX');
+INSERT INTO states (name, code) VALUES ('Utah', 'UT');
+INSERT INTO states (name, code) VALUES ('Virginia', 'VA');
+INSERT INTO states (name, code) VALUES ('Vermont', 'VT');
+INSERT INTO states (name, code) VALUES ('Washington', 'WA');
+INSERT INTO states (name, code) VALUES ('Wisconsin', 'WI');
+INSERT INTO states (name, code) VALUES ('West Virginia', 'WV');
+INSERT INTO states (name, code) VALUES ('Wyoming', 'WY');

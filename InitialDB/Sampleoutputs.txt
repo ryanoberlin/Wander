@@ -1,0 +1,43 @@
+#Alphabetical List of counties in Georgia
+
+select distinct county from city_data where state_code = 'GA' ORDER BY county LIMIT 10;
+
+county
+----------
+
+Appling
+Atkinson
+Bacon
+Baker
+Baldwin
+Banks
+Barrow
+Bartow
+Ben Hill
+Berrien
+Bibb
+
+# Listing of cities in Ohio
+ 
+select * from cities where state_code = 'OH' LIMIT 10;
+city        state_code
+----------  ----------
+Aberdeen    OH
+Ada         OH
+Adamsville  OH
+Addyston    OH
+Adelphi     OH
+Adena       OH
+Akron       OH
+Albany      OH
+Alexandria  OH
+Alger       OH
+
+#List of cities in Alaska at 53 degrees of latitude.
+
+select distinct city, state_code, latitude, longitude from city_data where latitude like '53%';
+
+city        state_code  latitude    longitude
+----------  ----------  ----------  -----------
+Unalaska    AK          53.887114   -166.519855
+Dutch Harb  AK          53.362757   -167.510656
